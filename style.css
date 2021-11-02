@@ -162,6 +162,9 @@ ________________________
 
 .item1{
     background-color: rgb(255, 190, 225);
+    position: STICKY;
+    top : 50px;
+    left: 50px;
 }
 
 .item2{
@@ -203,6 +206,43 @@ ________________________
     align-items: center;
 }
 
+.box__percent {
+width: 50%;
+}
+.box__pixels {
+width: 200px;
+}
+
+.box__vw {
+width: 50vw;
+}
+.box__vh {
+height: 20vh;
+}
+
+.font__container {
+height: auto;
+margin: 10px;
+font-size: 25px;
+}
+.font__1em {
+font-size: 1em;
+}
+.font__1rem {
+font-size: 1rem;
+}
+.font__100percent {
+font-size: 100%;}
+.font__2em {
+font-size: 2em;
+}
+.font__2rem {
+font-size: 2rem;
+}
+.font__200percent {
+font-size: 200%;
+}
+
 /*
 ________________________
 Media Queries
@@ -213,6 +253,11 @@ ________________________
     width: 90vw;
     margin-bottom: 50px;
     background-color: var(--primary-100);
+}
+
+@media screen and (min-width: : 992px){
+    .media__container(background-color: var(--primary-600);
+     )
 }
 /* Extra small devices (phones, 600px and down) */
 
